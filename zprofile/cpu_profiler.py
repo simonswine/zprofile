@@ -36,7 +36,7 @@ class CPUProfiler(object):
       period_ms: An optional integer specifying the sampling interval in
         milliseconds. Defaults to 10.
     """
-    self._profile_type = 'CPU'
+    self._profile_type = 'cpu'
     self._period_ms = period_ms
 
   def profile(self, duration_secs):

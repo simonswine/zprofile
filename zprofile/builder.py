@@ -55,7 +55,7 @@ class Builder(object):
     self._profile.period = period
     self._profile.duration_nanos = duration_ns
     type1 = self._profile.sample_type.add()
-    type1.type = self._string_id('sample')
+    type1.type = self._string_id('samples')
     type1.unit = self._string_id('count')
     type2 = self._profile.sample_type.add()
     type2.type = self._string_id(profile_type)
